@@ -62,12 +62,11 @@ Example CSS snippet I’m proud of:
   background-color: var(--primary-green);
   color: var(--neutral-off-black);
   outline: none;
-}
+} ```
 
 
 ## Author
 
-- Website - (https://noob-coder6.github.io/Social-Links-Profile/)
 - Frontend Mentor - [@noob-coder6](https://www.frontendmentor.io/profile/noob-coder6)
 
 
