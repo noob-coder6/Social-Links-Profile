@@ -62,8 +62,8 @@ Example CSS snippet I’m proud of:
   background-color: var(--primary-green);
   color: var(--neutral-off-black);
   outline: none;
-} ```
-
+} 
+```
 
 ## Author
 
