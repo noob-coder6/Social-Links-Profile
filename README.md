@@ -5,15 +5,12 @@ This is a solution to the [Social Links Profile challenge on Frontend Mentor](ht
 ## Table of Contents
 
   - [The Challenge](#the-challenge)  
+  - [Links](#links)  
   - [Built With](#built-with)  
   - [What I Learned](#what-i-learned)  
-  - [Useful Resources](#useful-resources)  
-- [Author](#author)  
-- [Acknowledgments](#acknowledgments)  
+  - [Author](#author)  
 
 ---
-
-## Overview
 
 ### The Challenge
 
@@ -25,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/noob-coder6)  
-- Live Site URL: [Add your live site URL here](https://your-live-site-url.com)  
+- Solution URL: [GITHUB REPO](https://github.com/noob-coder6/Social-Links-Profile.git)  
+- Live Site URL: [Live Site](https://noob-coder6.github.io/Social-Links-Profile/)  
 
 ---
 
@@ -70,5 +67,8 @@ Example CSS snippet I’m proud of:
 
 ## Author
 
-- Website - [noob-coder6](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - (https://noob-coder6.github.io/Social-Links-Profile/)
+- Frontend Mentor - [@noob-coder6](https://www.frontendmentor.io/profile/noob-coder6)
+
+
+To be notes that the profiles do not really redirect to the sites 
