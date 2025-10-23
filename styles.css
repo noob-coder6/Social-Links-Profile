@@ -1,0 +1,123 @@
+/* Import the "Inter" font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* A simple CSS Reset for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define colors and fonts from the style guide as CSS variables */
+:root {
+  --primary-green: hsl(75, 94%, 57%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-grey: hsl(0, 0%, 20%);
+  --neutral-dark-grey: hsl(0, 0%, 12%);
+  --neutral-off-black: hsl(0, 0%, 8%);
+  --font-family: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--neutral-off-black);
+  color: var(--neutral-white);
+  font-size: 14px; /* Base font size from style guide */
+
+  /* Use Flexbox to center the component perfectly on the page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+main {
+  width: 100%;
+  max-width: 384px;
+}
+
+.profile-card {
+  background-color: var(--neutral-dark-grey);
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-card__avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.profile-card__info {
+  margin-bottom: 24px;
+}
+
+.profile-card__name {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.profile-card__location {
+  color: var(--primary-green);
+  font-weight: 700;
+}
+
+.profile-card__bio {
+  margin-bottom: 24px;
+}
+
+.profile-card__links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.profile-card__links a {
+  display: block;
+  background-color: var(--neutral-grey);
+  color: var(--neutral-white);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.profile-card__links a:hover,
+.profile-card__links a:focus {
+  background-color: var(--primary-green);
+  color: var(--neutral-off-black);
+  outline: none; /* Remove default focus outline, but ensure focus is visible */
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+/* Media query for mobile view */
+@media (max-width: 375px) {
+  body {
+    padding: 1.5rem;
+  }
+
+  .profile-card {
+    padding: 24px;
+  }
+}
